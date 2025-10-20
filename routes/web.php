@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\mycontroller;
+use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -68,3 +69,7 @@ Route::fallback(function(){
     return view('404');
 });
 
+Route::group(['prefix'=>'/test'],function(){
+    Route::view('/form2', 'form2');
+    Route::view('/content', 'content');
+});

@@ -10,6 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="flex justify-center items-center h-screen">
-    <h1 class="text-2xl text-gray-300">404 || Page Not Found</h1>
+    <h1 class="text-2xl text-white p-3 bg-red-500 rounded-md">404 || Page Not Found</h1>
 </body>
 </html>
